@@ -11,7 +11,11 @@ box-sizing: border-box;
 
 body{
 background-image: url(https://i.pinimg.com/originals/10/c6/9c/10c69c681df73dbeef3bd5e53b4dea9f.jpg);
-background-size: cover;}
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
 
     
 #character{
