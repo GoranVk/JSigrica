@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+
+}
+
+
+body{
+background-image: url(https://i.pinimg.com/originals/10/c6/9c/10c69c681df73dbeef3bd5e53b4dea9f.jpg);
+background-size: cover;}
+
+    
+#character{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://pm1.narvii.com/5998/250fd9a4cec464018967b38900963ce4c3581deb_128.jpg);
+    background-size: cover;
+    border-radius: 25%;
+    top: 400px;
+    right: -50px;
+    position: relative;
+
+}
+    .animate{
+    
+    animation: jump 500ms;
+    }
+    
+
+    @keyframes jump{
+
+        0%{top:150px;}
+        30%{top:100px;}
+        70%{top:100px}
+        100%{top:150px;}
+    
+    
+    
+    }
+
+#block{
+width: 50px;
+height: 50px;
+background-image: url(https://is3-ssl.mzstatic.com/image/thumb/Purple7/v4/c8/e7/73/c8e773ad-e61b-43a1-96ce-4ac6edad258f/source/256x256bb.jpg);
+background-size: cover;
+border-radius: 50%;
+position: relative;
+top: 350px;
+left: 80px;
+animation: block 2.5s infinite linear;
+
+
+
+
+}
+
+@keyframes block{
+    0%{left:1500px;}
+    100%{left:-40px;}
+
+
+
+}
+
